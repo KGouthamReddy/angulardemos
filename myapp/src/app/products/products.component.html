@@ -1,7 +1,8 @@
-<label class="label mt-5">Enter the product name</label>
+<label>Product Name</label>
 <input type="text" class="form-control w-25" [(ngModel)]="productName" />
 <!-- <p>{{ productName }}</p> -->
 <button
+name="addProduct"
   class="btn btn-sm btn-primary mt-2"
   [disabled]="!allowNewProduct"
   (click)="onCreateProduct()"
@@ -14,4 +15,5 @@
   <p *ngFor="let product of products; let i = index">
     {{ i + 1 }}. {{ product }}
   </p>
+  <!-- <app-product></app-product> -->
 </div>
