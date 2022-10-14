@@ -1,6 +1,6 @@
-# Myapp
+# Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.9.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.3.
 
 ## Development server
 
@@ -25,3 +25,23 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+# Backend
+
+Using Spring boot 
+
+# Working With Backend
+●	Open Eclipse
+●	Go to File -> New -> Other-> maven Project -> Next.
+●	Type in any project name and click on “Finish.”
+●	Select all the dependency at the project creation time.
+●	Select your project and go to Files.
+
+
+# Database
+
+MySQL
+
+# Future Enhancement
+Enhance the forntend to look more attractive && User Friendly
